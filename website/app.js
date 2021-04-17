@@ -40,7 +40,7 @@ fetch('/all').then(
 )
 
 // Personal API Key for OpenWeatherMap API
-let baseURL= 'http://api.openweathermap.org/data/2.5/weather?zip=';
+let baseURL= 'https://api.openweathermap.org/data/2.5/weather?zip=';
 const personalApiKey= '&appid=bfdad66ac528dc404c4fe7833e8aaa68&units=metric';  //metric
 
 // Event listener to add function to existing HTML DOM element
